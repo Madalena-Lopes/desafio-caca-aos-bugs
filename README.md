@@ -31,19 +31,19 @@ Depuração e solução de bugs, pensamento crítico e analítico, segurança e 
 
 ## 🧪 Como testar o projeto
 ### Projeto Dima
-dotnet clean
-dotnet restore
-dotnet build
+* dotnet clean
+* dotnet restore
+* dotnet build
 
-cd Dima.Api
-dotnet user-secrets init
-dotnet user-secret set "ConnectionStrings:DefaultConnection" "2", onde no parâmetro 2 é para colocar a connectionstring da instância onde quero colocar a BD
-dotnet ef database update
-dotnet run
+* cd Dima.Api
+* dotnet user-secrets init
+* dotnet user-secret set "ConnectionStrings:DefaultConnection" "2", onde no parâmetro 2 é para colocar a ConnectionString para a instância onde quero colocar a BD.
+* dotnet ef database update
+* dotnet run
 
-Noutro terminal
-cd Dima.Web
-dotnet run
+  Noutro terminal:
+* cd Dima.Web
+* dotnet run
 
 # 💜 Participe
 Quer participar dos próximos desafios? Junte-se a [maior comunidade .NET do Brasil 🇧🇷 💜](https://balta.io/discord)
